@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: py-students-classrooms
+Version: 1.0
+Summary: Useful library made in python to handle students and classrooms
+Home-page: https://github.com/yassnet/py-students-classrooms
+Author: Yassir Aguila
+Author-email: yass.net@gmail.com
+License: MIT
+Description: # py-students-classrooms
+        Useful library made in python to handle students and classrooms
+        
+Keywords: example geolocation util utm
+Platform: UNKNOWN
+Classifier: Development Status :: 1.0 release
+Classifier: Topic :: Utilities
+Classifier: License :: MIT License
