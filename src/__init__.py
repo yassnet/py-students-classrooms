@@ -1,4 +1,4 @@
-__all__ = ['classroom', 'student', 'geolocation_util']
+__all__ = ['classroom', 'student', 'students_locator_in_classrooms.py']
 import classroom
 import student
-import geolocation_util
+import students_locator_in_classrooms

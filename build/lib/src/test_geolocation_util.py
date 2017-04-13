@@ -1,4 +1,4 @@
-import geolocation_util
+import students_locator_in_classrooms
 import unittest
 from classroom import Classroom
 from student import Student
@@ -24,7 +24,7 @@ class TestGeoLocationUtil(unittest.TestCase):
                     Student("Jane Graham", Position(-118.441862, 34.069601)),
                     Student("Pam Pam", Position(-118.441181, 34.071513))]
 
-        result = geolocation_util.student_clusters_in_classes(students, get_classrooms())
+        result = students_locator_in_classrooms.student_clusters_in_classes(students, get_classrooms())
 
         print("------------")
         print("Example 1:")
@@ -40,7 +40,7 @@ class TestGeoLocationUtil(unittest.TestCase):
                     Student("Jane Graham", Position(-118.441562, 34.069901)),
                     Student("Pam Pam", Position(-118.441171, 34.071523))]
 
-        result = geolocation_util.student_clusters_in_classes(students, get_classrooms())
+        result = students_locator_in_classrooms.student_clusters_in_classes(students, get_classrooms())
 
         print("------------")
         print("Example 2:")
@@ -58,7 +58,7 @@ class TestGeoLocationUtil(unittest.TestCase):
                     Student("Jane Graham", Position(-118.441862, 34.069601)),
                     Student("Pam Pam", Position(-118.441181, 34.071513))]
 
-        result = geolocation_util.student_clusters_in_classes(students, get_classrooms())
+        result = students_locator_in_classrooms.student_clusters_in_classes(students, get_classrooms())
 
         print("------------")
         print("test_with_more_students_in_one_room:")
@@ -79,7 +79,7 @@ class TestGeoLocationUtil(unittest.TestCase):
                     Student("Jane Graham2", Position(-118.441562, 34.069901)),
                     Student("Pam Pam", Position(-118.441171, 34.071523))]
 
-        result = geolocation_util.student_clusters_in_classes(students, get_classrooms())
+        result = students_locator_in_classrooms.student_clusters_in_classes(students, get_classrooms())
 
         print("------------")
         print("test_with_two_students_in_different_classroom")
@@ -96,7 +96,7 @@ class TestGeoLocationUtil(unittest.TestCase):
                     Student("Pam Pam", Position(-118.441181, 34.071513)),
                     Student("Pam Pam2", Position(-118.441181, 34.071513))]
 
-        result = geolocation_util.student_clusters_in_classes(students, get_classrooms())
+        result = students_locator_in_classrooms.student_clusters_in_classes(students, get_classrooms())
 
         print("------------")
         print("test_with_more_students_in_one_room 3:")
