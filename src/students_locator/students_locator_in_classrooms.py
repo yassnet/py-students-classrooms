@@ -1,5 +1,5 @@
 # @author Yassir Aguila
-# @version $Revision: 1.0 $ $Date: 2017-04-05
+# @version $Revision: 1.2 $ $Date: 2017-04-05
 
 
 def students_in_classes(students, rooms):

@@ -10,7 +10,7 @@ def read(fname):
 
 setup(
     name="py-students-classrooms",
-    version="1.0",
+    version="1.2",
     author="Yassir Aguila",
     author_email="yass.net@gmail.com",
     description="Useful library made in python to handle students and classrooms",
@@ -20,8 +20,8 @@ setup(
     packages=['src'],
     long_description=read('README.md'),
     classifiers=[
-        "Development Status :: 1.0 release",
+        "Development Status :: 1.2 release",
         "Topic :: Utilities",
         "License :: MIT License",
-    ], install_requires=['students_locator.model']
+    ]
 )

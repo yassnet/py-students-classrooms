@@ -2,8 +2,5 @@ setup.py
 py_students_classrooms.egg-info/PKG-INFO
 py_students_classrooms.egg-info/SOURCES.txt
 py_students_classrooms.egg-info/dependency_links.txt
-py_students_classrooms.egg-info/requires.txt
 py_students_classrooms.egg-info/top_level.txt
-src/__init__.py
-src/students_locator_in_classrooms.py
 test/test_students_locator_in_classrooms.py

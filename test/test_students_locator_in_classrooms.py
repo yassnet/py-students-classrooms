@@ -1,12 +1,12 @@
 import unittest
 
-import students_locator_in_classrooms
+from students_locator import students_locator_in_classrooms
 from students_locator.model.classroom import Classroom
 from students_locator.model.position import Position
 from students_locator.model.student import Student
 
 # @author Yassir Aguila
-# @version $Revision: 1.0 $ $Date: 2017-04-05
+# @version $Revision: 1.2 $ $Date: 2017-04-05
 
 
 class TestStudentsLocatorInClassrooms(unittest.TestCase):

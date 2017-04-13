@@ -1,7 +1,7 @@
 from lib.geographic_utm_converter import geographic_to_utm
 
 # @author Yassir Aguila
-# @version $Revision: 1.0 $ $Date: 2017-04-05
+# @version $Revision: 1.2 $ $Date: 2017-04-05
 #
 # Position model class
 
